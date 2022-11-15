@@ -6,7 +6,7 @@ const reviewsSchema = mongoose.Schema({
     require: true,
   },
   user: {
-    ref: "user",
+    ref: "clients",
     type: mongoose.SchemaTypes.ObjectId,
   },
   book: {
